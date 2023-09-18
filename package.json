@@ -1,0 +1,25 @@
+{
+  "name": "project_muso-ninjas",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 9000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "firebase": "^8.0.1",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "vite": "^4.4.9"
+  }
+}
